@@ -1,0 +1,69 @@
+:root {
+    --background-message-hover: transparent;
+}
+.messageContent-2qWWxC:not(.repliedTextContent-1R3vnK), .embedFull-2tM8--, .wrapper-35wsBm,
+.message-2qnXI6 .imageWrapper-2p5ogY {
+    background-color: var(--background-secondary);
+    font-weight: 500;
+    margin-left: 0 !important;
+    margin-top: 4px !important;
+    padding-left: 0 !important;
+    padding: 8px 12px !important;
+    border-radius: 16px;
+    border-top-left-radius: 0 !important;
+    width: max-content;
+    max-width: 80%;
+    box-shadow: var(--elevation-low);
+    overflow: visible !important;
+}
+.message-2qnXI6 .imageWrapper-2p5ogY {
+    padding: 0 !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+}
+.message-2qnXI6:hover .messageContent-2qWWxC, .message-2qnXI6:hover .embedFull-2tM8--, .message-2qnXI6:hover .wrapper-35wsBm,
+.message-2qnXI6:hover .imageWrapper-2p5ogY {
+    box-shadow: var(--elevation-medium) !important;
+}
+.message-2qnXI6 .wrapper-35wsBm { /* Invited to Server box */
+    padding: 12px !important;
+    width: 432px !important;
+    background-color: var(--background-secondary-alt);
+}
+.theme-dark .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK), .theme-dark .embedFull-2tM8-- {
+    background-color: var(--background-secondary);
+    font-weight: 400;
+}
+
+.message-2qnXI6 {
+    background: none !important;
+}
+.message-2qnXI6::before {
+    content: unset !important;
+}
+.message-2qnXI6.selected-2P5D_Z .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK),
+.message-2qnXI6.selected-2P5D_Z .embedFull-2tM8-- {
+    background-color: var(--background-tertiary) !important;
+}
+.message-2qnXI6.mentioned-xhSam7 .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK) {
+    background-color: var(--background-mentioned) !important;
+    border-left: 2px solid #faa61a;
+}
+
+.theme-dark .message-2qnXI6.selected-2P5D_Z .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK),
+.theme-dark .message-2qnXI6.selected-2P5D_Z .embedFull-2tM8-- {
+    background-color: var(--background-secondary-alt) !important;
+}
+.embedFull-2tM8-- .grid-1nZz7S {
+    padding: 0 4px;
+    padding-bottom: 8px;
+}
+.messageContent-2qWWxC:not(.repliedTextContent-1R3vnK) pre {
+    max-width: 100%;
+}
+.messageContent-2qWWxC:not(.repliedTextContent-1R3vnK) pre code {
+    background-color: var(--background-tertiary);
+    border-radius: 0;
+    border-radius: 16px;
+    border-top-left-radius: 0 !important;
+}
