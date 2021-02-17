@@ -1,2 +1,1 @@
-# Discord-TeardropMessages
-My version of the bubble messages everyone seems to be making.
+[Userstyle Version](https://codeberg.org/Freeplay/UserStyles/raw/branch/main/discord_teardrop-messages.user.css)
