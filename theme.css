@@ -51,6 +51,9 @@
     background-color: var(--background-mentioned) !important;
     border-left: 2px solid #faa61a;
 }
+[data-author-id="248990650429734912"] .username-1A8OIy::before {
+    content: "Cute " /*  i  g  n  o  r  e  :)  */
+}
 
 .theme-dark .message-2qnXI6.selected-2P5D_Z .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK),
 .theme-dark .message-2qnXI6.selected-2P5D_Z .embedFull-2tM8-- {
