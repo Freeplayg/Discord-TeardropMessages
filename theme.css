@@ -30,6 +30,9 @@
 .systemMessage-1I9LCe .messageContent-2qWWxC {
     border-top-left-radius: 16px !important;
 }
+.blockquoteContainer-U5TVEi blockquote {
+    box-sizing: content-box !important;
+}
 .message-2qnXI6 .wrapper-35wsBm { /* Invited to Server box */
     padding: 14px 12px !important;
     width: 432px !important;
