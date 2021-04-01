@@ -1,8 +1,5 @@
-/* 1.0.7
-- Fixed text wrapping in blockquotes
-- Fixed embed thumbnail spacing
-- Changed codeblock color on light-theme
-- Added support for file previews
+/* 1.0.8
+- Hotfix for emoji reactions
 */
 
 :root {
@@ -10,8 +7,7 @@
 }
 .cozy-3raOZG .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK), .embedFull-2tM8--, .wrapper-35wsBm,
 .message-2qnXI6 .imageWrapper-2p5ogY,
-.cozy-3raOZG .repliedMessage-VokQwo,
-.container-1ov-mD {
+.cozy-3raOZG .repliedMessage-VokQwo {
     background-color: var(--background-secondary);
     font-weight: 500;
     margin-left: 0 !important;
@@ -28,20 +24,21 @@
 }
 
 /* File Previews */
-.container-1ov-mD {
-    padding: 0 !important;
-    overflow: hidden !important;
+.container-1pMiXm {
+    border-radius: 16px !important;
+    border-top-left-radius: 0 !important;
+    overflow: hidden;
 }
 .container-1pMiXm > div {
     border: none !important;
 }
-.container-1ov-mD code {
+.container-1pMiXm code {
     padding: 10px !important;
     background-color: var(--background-primary);
     border: 1px solid var(--background-tertiary);
     border-top-right-radius: 16px;
 }
-.theme-dark .container-1ov-mD code {
+.theme-dark .container-1pMiXm code {
     background-color: var(--background-tertiary);
 }
 
@@ -54,7 +51,7 @@
 
 .cozy-3raOZG.message-2qnXI6:hover .messageContent-2qWWxC, .message-2qnXI6:hover .embedFull-2tM8--, .cozy-3raOZG .message-2qnXI6:hover .wrapper-35wsBm,
 .message-2qnXI6:hover .imageWrapper-2p5ogY,
-.message-2qnXI6:hover .container-1ov-mD {
+.message-2qnXI6:hover .container-1pMiXm {
     box-shadow: var(--elevation-medium) !important;
 }
 
