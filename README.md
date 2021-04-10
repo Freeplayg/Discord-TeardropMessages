@@ -1,3 +1,3 @@
 [Userstyle Version](https://codeberg.org/Freeplay/UserStyles/raw/branch/main/discord_teardrop-messages.user.css)
 
-![2021-04-02_10-50](https://user-images.githubusercontent.com/40742947/113426415-6e087d80-93a1-11eb-9192-72f7bbd9e8dd.png)
+![discord-teardrop-messages-1](https://user-images.githubusercontent.com/40742947/114284793-558f0780-9a20-11eb-8909-9100f1fc4aff.png)
