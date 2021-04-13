@@ -1,5 +1,6 @@
-/* 1.0.8
-- Hotfix for emoji reactions
+/* 1.0.9
+- Fixed images in embeds
+- Fixed slash commands
 */
 
 :root {
@@ -47,6 +48,19 @@
     padding: 0 !important;
     max-width: 100% !important;
     overflow: hidden !important;
+}
+/* Images in embeds */
+.embedGalleryImagesWrapper-2Qn2vv {
+    overflow: hidden;
+    border-radius: 16px;
+    border-top-left-radius: 0;
+    margin-top: 20px;
+}
+.embedGalleryImagesWrapper-2Qn2vv .imageWrapper-2p5ogY {
+    border-radius: 0 !important;
+}
+.embedGallerySide-1Hu9Bp {
+    margin-top: -4px;
 }
 
 .cozy-3raOZG.message-2qnXI6:hover .messageContent-2qWWxC, .message-2qnXI6:hover .embedFull-2tM8--, .cozy-3raOZG .message-2qnXI6:hover .wrapper-35wsBm,
@@ -133,6 +147,11 @@
     width: 60% !important;
     width: clamp(500px, 100%, 600px) !important;
 }
+
+/* Fix slash commands */
+.executedCommand-2GE3w2 {
+    height: unset !important;
+}
 /* Cover reply border radius */
 .cozy-3raOZG .repliedMessage-VokQwo ~ .contents-2mQqc9 > .messageContent-2qWWxC:first-of-type::before {
     content: "";
@@ -157,4 +176,4 @@
 }
 .cozy-3raOZG .contents-2mQqc9 > span {
     order: -1;
-}  
+}
